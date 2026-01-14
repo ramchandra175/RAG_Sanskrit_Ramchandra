@@ -73,8 +73,7 @@ LLM (CPU-based)
 ↓
 Generated Answer
 
-yaml
-Copy code
+
 
 ---
 
@@ -92,28 +91,27 @@ Copy code
 | Runtime | CPU only | Optimized inference |
 
 ---
-
-## 🗂️ Project Structure
-
+## PROJECT STRUCTURE 
 RAG_Sanskrit_Ramchandra/
 │
 ├── code/
-│ ├── app.py # Main RAG application
-│ ├── retriever.py # Vector retrieval logic
-│ ├── generator.py # LLM response generation
-│ ├── preprocess.py # Sanskrit preprocessing pipeline
+│   ├── app.py                 # Main RAG application entry point
+│   ├── retriever.py           # Vector retrieval and similarity search
+│   ├── generator.py           # LLM-based answer generation
+│   └── preprocess.py          # Sanskrit document preprocessing pipeline
 │
 ├── data/
-│ └── sanskrit_docs/ # Input Sanskrit documents
+│   └── sanskrit_docs/          # Input Sanskrit documents (.txt / .pdf)
 │
 ├── report/
-│ └── RAG_Sanskrit_Report.pdf
+│   └── RAG_Sanskrit_Report.pdf # Final technical report
 │
-├── requirements.txt
-└── README.md
+├── requirements.txt            # Python dependencies
+└── README.md                   # Project documentation
 
-yaml
-Copy code
+
+
+
 
 ---
 
@@ -183,8 +181,7 @@ Copy code
 **Output:**
 धर्मः समाजस्य नैतिकनियमः अस्ति, यः मानवस्य आचारविचारान् निर्देशयति।
 
-yaml
-Copy code
+
 
 ---
 
@@ -232,8 +229,7 @@ Multilingual query support
 
 Quantized LLM for faster inference
 
-yaml
-Copy code
+
 
 ---
 
